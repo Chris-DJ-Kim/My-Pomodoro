@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<h1>
+    This is a Pomodoro Timer
+</h1>
+
+<h2>
+<div class="timer">
+
+    <div>
+    <div class="timerText">
+    <input type="text" maxlength="2" size="1" onkeypress="checkIfNumber(event)" placeholder="00" id="hours">
+    <p>Hours</p>
+    </div>
+    </div>
+    <div>
+    <div class="timerText">
+    <input type="text" maxlength="2" size="1" onkeypress="checkIfNumber(event)" placeholder="00" id="minutes">
+<p>Minutes</p>    
+</div>
+    </div>
+    <div>
+    <div class="timerText">
+    <input type="text" maxlength="2" size="1" onkeypress="checkIfNumber(event)" placeholder="00" id="seconds">
+<p>Seconds</p>    
+</div>
+    </div>
+
+
+</div>
+
+</h2>
+
+
+</div>
+<div class="control">
+<button type="button" class="btn btn-dark" id="start">Start</button>
+<button type="button" class="btn btn-dark" id="stop">Stop</button>
+<button type="button" class="btn btn-dark" id="reset">Reset</button>
+</div>
+
+<div class="btn-group btn-group-toggle" id="timers">
+<button type="button" class="btn btn-light btn-lg" id="work">Work</button>
+<button type="button" class="btn btn-light btn-lg" id="shortBreak">Short Break</button>
+<button type="button" class="btn btn-light btn-lg" id="longBreak">Long Break</button>
+</div>
+
+</div>
+
+<div class="footer">
+Chris Kim
+</div>
+
+<script src="index.js"></script>
+</body>
+
+</html>
