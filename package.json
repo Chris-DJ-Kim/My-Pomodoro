@@ -1,5 +1,6 @@
 {
   "name": "mypomodoro",
+  "homepage":"https://juniordj428.github.io/My-Pomodoro",
   "version": "1.0.0",
   "description": "A timer using the pomodoro technique to hopefully increase productivity.",
   "main": "app.js",
